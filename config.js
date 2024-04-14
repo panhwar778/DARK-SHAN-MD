@@ -4,19 +4,19 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 //═══════[Required Variables]════════\\
 global.owner = process.env.OWNER_NUMBER.split(",")
-global.mongodb = process.env.MONGODB_URI || "mongodb+srv://KING-MDBOT:KING-MDBOT@cluster0.ltjjfkx.mongodb.net/?retryWrites=true&w=majority"
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://farhsnalikkaksk:farhsnalikkaksk@cluster0.5dyipit.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 global.port= process.env.PORT || 5000
 global.email = 'textnow1pak@gmail.com'
 global.github = 'https://github.com/kushansewmina1234/DARK-SHAN-MD'
 global.location = 'pakistan'
 global.gurl = 'https://instagram.com/naveeddogar_' // add your username
-global.sudo = process.env.SUDO || '9471234567'
-global.devs = '94772108460';
+global.sudo = process.env.SUDO || '923021237037'
+global.devs = '923021237037';
 global.website = 'https://github.com/kushansewmina1234/DARK-SHAN-MD' // Hello world
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/ee0f303f5da6d86d024e0.jpg'
 module.exports = {
-  botname:   process.env.BOT_NAME === undefined ? 'DARK-SHAN-MD' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'DARKSHAN' : process.env.OWNER_NAME,
+  botname:   process.env.BOT_NAME === undefined ? '923021237037' : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? '🦋✨ᴵᴬᴹ  ➳ᴩª𝗴𝑎𝚕ᗷοț➳✨🦋' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
   author:  process.env.PACK_AUTHER.split(";")[0] === undefined ? 'DARKSHAN' : process.env.PACK_AUTHER.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS  || 'true' ,
